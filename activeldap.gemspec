@@ -49,9 +49,9 @@ Gem::Specification.new do |spec|
   spec.add_dependency("gettext_i18n_rails", ["~> 1.7.0"])
 
   spec.add_development_dependency("bundler")
-  spec.add_development_dependency("rake")
-#  spec.add_development_dependency("test-unit")
-#  spec.add_development_dependency("test-unit-notify")
-#  spec.add_development_dependency("yard")
-#  spec.add_development_dependency("RedCloth")
+  spec.add_development_dependency("rake", ["~> 10.0.4"])
+  spec.add_development_dependency("test-unit")
+  spec.add_development_dependency("test-unit-notify")
+  spec.add_development_dependency("yard")
+  spec.add_development_dependency("RedCloth")
 end
